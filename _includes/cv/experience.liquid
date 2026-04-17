@@ -33,9 +33,7 @@
                   <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span>
                 </td>
               </tr>
-              {% capture location %}
-                {% if entry.location %}{{ entry.location }}{% endif %}
-              {% endcapture %}
+              {% assign location = entry.location | default: '' | strip %}
               {% if location != '' %}
                 <tr>
                   <td>
