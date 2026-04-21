@@ -5,7 +5,9 @@ window.MathJax = {
       ["$", "$"],
       ["\\(", "\\)"],
     ],
+    packages: { "[+]": ["ams", "color"] },
   },
+  loader: { load: ["[tex]/color"] },
   options: {
     renderActions: {
       addCss: [

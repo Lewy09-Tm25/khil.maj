@@ -37,3 +37,9 @@
 @use "font-awesome/brands";
 @use "font-awesome/solid";
 @use "font-awesome/regular";
+
+// Equation overflow for long display math in posts
+.post-content mjx-container[jax="CHTML"][display="true"] {
+  overflow-x: auto;
+  max-width: 100%;
+}
