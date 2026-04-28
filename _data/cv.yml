@@ -1,7 +1,7 @@
 cv:
   name: Khilav Majmudar
   # label: Scientist
-  # email: einstein@example.com
+  email: khilav.m@gmail.com
   # location: Princeton, NJ
   # image: ""
   # summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
@@ -24,21 +24,19 @@ cv:
   sections:
     Education:
       - institution: University of Minnesota - Twin Cities
-        # location: Minneapolis, Minnesota, USA
+        location: Minneapolis, MN, USA
         # url: https://www.uzh.ch/
         area: Physics
         studyType: PhD
         start_date: 2019
         end_date: 2025
-        # score: ""
-        # courses: "Theory of Relativity"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Magnetohydrodynamic simulations in the Earth's magnetosphere.
+          - Advisor - Robert Lysak
 
-      - institution: IISER Pune
-        # location: Pune, Maharashatra, India
-        # area: Physics
+      - institution: Indian Institute of Science Education and Research, Pune, India
+        location: Pune, MH, India
+        area: Physics, Mathematics
         studyType: BS - MS Dual degree
         start_date: 2013
         end_date: 2018
@@ -47,44 +45,16 @@ cv:
         #   - Description 2.
 
     Experience:
-      # - company: Institute for Advanced Study, Princeton University
-      #   position: Professor of Theoretical Physics
-      #   location: Princeton University, NJ
-      #   start_date: 1933
-      #   end_date: 1955
-      #   summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-      #   highlights:
-      #     - Relativity
-      #     - Description 2.
-
-      # - company: California Institute of Technology
-      #   position: Visiting Professor
-      #   location: Pasadena, California, US
-      #   start_date: 1933
-      #   end_date: 1933
-      #   highlights:
-      #     - Description 1.
-      #     - Description 2.
-
-      # - company: Kaiser Wilhelm Institute for Physics
-      #   position: Director
-      #   location: Berlin, Germany
-      #   start_date: 1917
-      #   end_date: 1933
-
-      # - company: Karl-Ferdinand University
-      #   position: Professor of Theoretical Physics
-      #   location: Prague, Czechoslovakia
-      #   start_date: 1911
-      #   end_date: 1917
-
-      # - company: University of Zurich
-      #   position: Associate Professor of Theoretical Physics
-      #   location: Zurich, Switzerland
-      #   start_date: 1909
-      #   end_date: 1911
-
-    Volunteer:
+       - company: Los Alamos National Laboratory 
+         position: Summer Research Intern
+         location: Los Alamos, NM, USA
+         start_date: 2024
+         end_date: 2024
+         highlights:
+           - Calculating hot plasma susceptibilities for a subgrid dispersion relation solver for use in the MASS-APP plasma simulation code.
+           - Mentor - Salomon Janhunen (Group T-5)
+    
+    #Volunteer:
     #   - company: People's Climate March
     #     position: Lead Organizer
     #     location: Zurich, Switzerland
@@ -96,13 +66,8 @@ cv:
     #       - "Men of the year 2014 by Time magazine"
 
     Awards:
-      # - title: Nobel Prize in Physics
-      #   authors:
-      #     - "Royal Swedish Academy of Sciences"
-      #   date: 1921-11-01
-      #   awarder: Royal Swedish Academy of Sciences
-      #   url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-      #   summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+       - title: Dr Leonard F. Burlaga/Arctowski Medal Fellowship
+         date: 2022
 
       # - title: Max Planck Medal
       #   authors:
@@ -112,31 +77,25 @@ cv:
       #   summary: Awarded for outstanding scientific achievement
 
     Publications:
-      # - title: Zur Elektrodynamik bewegter Körper
-      #   authors:
-      #     - Albert Einstein
-      #   publisher: Annalen der Physik
-      #   releaseDate: 1905-06-30
-      #   url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-      #   summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+       - title: Numerical Investigations of Low-Latitude Ground Magnetic Fields due to Cavity Mode Oscillations.
+         authors:
+           - Khilav Majmudar
+           - Robert Lysak
+           - Kazue Takahashi
+         releaseDate: 2026
+         url: https://doi.org/10.22541/essoar.15001975/v1
+         summary: "In review at Journal of Geophysical Research: Space Physics"
 
-      # - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-      #   authors:
-      #     - Albert Einstein
-      #   publisher: Annalen der Physik
-      #   releaseDate: 1905-03-18
-      #   url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-      #   summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+       - title: Relationship between low-latitude Pi2 pulsations and cavity mode oscillations.
+         authors:
+           - Kazue Takahashi
+           - Robert Lysak
+           - Khilav Majmudar
+         publisher: "Journal of Geophysical Research: Space Physics"
+         releaseDate: 2024
+         url: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2024JA032858
 
-      # - title: Die Grundlage der allgemeinen Relativitätstheorie
-      #   authors:
-      #     - Albert Einstein
-      #   publisher: Annalen der Physik
-      #   releaseDate: 1916-03-20
-      #   url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-      #   summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
+    #Skills:
       # - name: Physics
       #   level: Master
       #   icon: fa-solid fa-hashtag
@@ -144,27 +103,23 @@ cv:
 
     Languages:
       - name: English
-        summary: "Native speaker"
-
-      - name: Hindi
-        summary: "Native speaker"
+        summary: Fluent
 
       - name: Gujarati
-        summary: "Native speaker"
+        summary: Fluent
+
+      - name: Hindi
+        summary: Fluent
 
       - name: French
-        summary: "Beginner"
-        
-      - name: German
-        summary: "Beginner"
+        summary: "Reading, so-so otherwise"
 
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
+    #Interests:
+    #  - name: Physics
+    #    icon: fa-solid fa-tag
         # keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
-    Certificates:
+    #Certificates:
       # - name: Machine Learning
       #   date: 2018-01-01
       #   issuer: Stanford University
@@ -180,7 +135,7 @@ cv:
       #   issuer: Stanford University
       #   icon: fa-solid fa-envelope
 
-    Projects:
+    #Projects:
       # - name: Quantum Computing
       #   summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
       #   highlights:
@@ -189,9 +144,9 @@ cv:
       #   start_date: 2018-01-01
       #   end_date: 2018-01-01
 
-    References:
-      - name: Dr. Robert Lysak
-        icon: fa-solid fa-laptop
+    #References:
+    #  - name: Dr. Robert Lysak
+    #    icon: fa-solid fa-laptop
         # reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
 
       # - name: Professor Jane Smith
